@@ -1,0 +1,102 @@
+[
+	{
+		"phrase": "The best thing about a boolean is even if you are wrong, you are only off by a bit.",
+		"signature": "Anonymous"
+	},
+	{
+		"phrase": "Without requirements or design, programming is the art of adding bugs to an empty text file.",
+		"signature": "Louis Srygley"
+	},
+	{
+		"phrase": "Before software can be reusable it first has to be usable.",
+		"signature": "Ralph Johnson"
+	},
+	{
+		"phrase": "The best method for accelerating a computer is the one that boosts it by 9.8 m/s2.",
+		"signature": "Anonymous"
+	},
+	{
+		"phrase": "I think Microsoft named .Net so it wouldn’t show up in a Unix directory listing.",
+		"signature": "Oktal"
+	},
+	{
+		"phrase": "If builders built buildings the way programmers wrote programs, then the first woodpecker that came along wound destroy civilization.",
+		 "signature": "Gerald Weinberg"
+	},
+	{
+		"phrase": "There are two ways to write error-free programs; only the third one works.",
+		"signature": "Alan J. Perlis"
+	},
+	{
+		"phrase": "Ready, fire, aim: the fast approach to software development. Ready, aim, aim, aim, aim: the slow approach to software development.",
+		"signature": "Anonymous"
+	},
+	{
+		"phrase": "It’s not a bug – it’s an undocumented feature.",
+		"signature": "Anonymous"
+	},
+	{
+		"phrase": "One man’s crappy software is another man’s full time job.",
+		"signature": "Jessica Gaston"
+	},
+	{
+		"phrase": "A good programmer is someone who always looks both ways before crossing a one-way street.",
+		"signature": "Doug Linder"
+	},
+	{
+		"phrase": "Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live.",
+		"signature": "Martin Golding"
+	},
+	{
+		"phrase": "Programming is like sex. One mistake and you have to support it for the rest of your life.",
+		"signature": "Michael Sinz"
+	},
+	{
+		"phrase": "Deleted code is debugged code.",
+		"signature": "Jeff Sickel"
+	},
+	{
+		"phrase": "Walking on water and developing software from a specification are easy if both are frozen.",
+		"signature": "Edward V Berard"
+	},
+	{
+		"phrase": "If debugging is the process of removing software bugs, then programming must be the process of putting them in.",
+		"signature": "Edsger Dijkstra"
+	},
+	{
+		"phrase": "Software undergoes beta testing shortly before it’s released. Beta is Latin for “still doesn’t work.",
+		"signature": "Anonymous"
+	},
+	{
+		"phrase": "Programming today is a race between software engineers striving to build bigger and better idiot-proof programs, and the universe trying to produce bigger and better idiots. So far, the universe is winning.",
+		 "signature": "Rick Cook"
+	},
+	{
+		"phrase": "It’s a curious thing about our industry: not only do we not learn from our mistakes, we also don’t learn from our successes.",
+		"signature": "Keith Braithwaite"
+	},
+	{
+		"phrase": "There are only two kinds of programming languages: those people always bitch about and those nobody uses.",
+		"signature": "Bjarne Stroustrup"
+	},
+	{
+		"phrase": "In order to understand recursion, one must first understand recursion.",
+		"signature": "Anonymous"
+	},
+	{
+		"phrase": "The cheapest, fastest, and most reliable components are those that aren’t there.",
+		"signature": "Gordon Bell"
+	},
+	{
+		"phrase": "The best performance improvement is the transition from the nonworking state to the working state.",
+		"signature": "J. Osterhout"
+	},
+	{
+		"phrase": "The trouble with programmers is that you can never tell what a programmer is doing until it’s too late.",
+		"signature": "Seymour Cray"
+	},
+	{
+		"phrase": "Don’t worry if it doesn’t work right. If everything did, you’d be out of a job.",
+		"signature": "Mosher’s Law of Software Engineering"
+	}
+]

@@ -2,21 +2,29 @@
 <html>
 <head>
   <title>Настроение</title>
-  <script id="quotes_json" type="application/json">
-    [
-      {
-        "phrase": "Кукурузные хлопья - теперь без асбеста!",
-        "signature": "©Неизвестный маркетолог"
-      },
-      {
-        "phrase": "Собираюсь жить вечно, пока всё идёт нормально"
-      },
-      {
-        "phrase": "Если ты будешь усердно работать по 8 часов в день, то обязательно станешь боссом и начнешь работать по 12"
-      }
-    ]
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/default.css">
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery-3.1.1.min.js"></script>
+  <script>
+    $.getJSON("quotes.json", function(json) {
+        styles = ["triangle-obtuse", "triangle-isosceles", "triangle-border", "example-twitter", "pinched",
+        "oval-speech", "oval-thought", "rectangle-speech-border"];
+        style = styles[Math.floor(Math.random() *styles.length)];
+        var quote = json[Math.floor(Math.random() *json.length)];
+        $('<p>' + quote.phrase + '</p>').appendTo( "#quote" );
+        $('<p>' + quote.signature + '</p>').appendTo( "#signature" );
+        document.getElementById('quote').setAttribute("class", style);
+    });
   </script>
 </head>
 <body>
+<div class="row">
+  <div class="center-block" style="width: 600px;">
+    <blockquote id="quote"></blockquote>
+    <div id="signature" class="text-muted text-center" style="font-size: 2em"></div>
+</div>
+</div>
 </body>
 </html>
