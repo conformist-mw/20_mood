@@ -9,8 +9,8 @@
   <script src="js/jquery-3.1.1.min.js"></script>
   <script>
     $.getJSON("quotes.json", function(json) {
-        styles = ["triangle-obtuse", "triangle-isosceles", "triangle-border", "example-twitter", "pinched",
-        "oval-speech", "oval-thought", "rectangle-speech-border"];
+        styles = ["triangle-obtuse", "triangle-isosceles", "triangle-border", "triangle-right",
+        "oval-speech", "oval-speech-border", "oval-thought", "rectangle-speech-border", "example-right", "example-obtuse"];
         style = styles[Math.floor(Math.random() *styles.length)];
         var quote = json[Math.floor(Math.random() *json.length)];
         $('<p>' + quote.phrase + '</p>').appendTo( "#quote" );
